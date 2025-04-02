@@ -38,15 +38,6 @@ Este repositório contém a implementação do backend do **Sistema de Gestão d
 - [RNF-03] O sistema deve suportar pelo menos 1000 usuários simultâneos.
 
 
-### 3. Integração com APIs de Saúde
-
-```http
-GET /api/health-data/{patientId}
-```
-- Consulta dados de saúde do paciente via API (TISS/TUSS).
-
-## Fluxo do Sistema
-
 ### 1. Fluxo de Autenticação
 
 1. Usuário acessa a tela de login e insere suas credenciais.
