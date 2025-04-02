@@ -37,41 +37,6 @@ Este repositório contém a implementação do backend do **Sistema de Gestão d
 - [RNF-02] A API deve suportar autenticação via JWT.
 - [RNF-03] O sistema deve suportar pelo menos 1000 usuários simultâneos.
 
-## Endpoints da API
-
-### 1. Autenticação
-
-```http
-POST /api/register
-```
-- Cadastra um novo usuário (paciente ou médico).
-
-```http
-POST /api/login
-```
-- Autentica um usuário e retorna um token JWT.
-
-### 2. Agendamentos
-
-```http
-GET /api/appointments
-```
-- Lista todas as consultas agendadas.
-
-```http
-POST /api/appointments
-```
-- Cria um novo agendamento.
-
-```http
-PUT /api/appointments/{id}
-```
-- Atualiza um agendamento existente.
-
-```http
-DELETE /api/appointments/{id}
-```
-- Cancela um agendamento.
 
 ### 3. Integração com APIs de Saúde
 
